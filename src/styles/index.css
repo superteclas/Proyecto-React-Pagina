@@ -61,11 +61,19 @@ margin-bottom: 5em;
 }
 
 .cardcontainer {
+   
     margin-top: 2em;
     margin-left: 12em;
     margin-right: 12em;
     margin-bottom: 2em;
     
+}
+
+.btn-container {
+    background-color: #f0f0f0; /* Gris claro */
+    padding: 20px; /* Espaciado alrededor del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 0; /* Elimina el margen */
 }
 
 .Footer{
