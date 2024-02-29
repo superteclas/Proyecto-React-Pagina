@@ -1,5 +1,36 @@
+.container {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+    
+}
+
 
 .navbar {
 
-    background-color: black;
+    background-color: rgb(39, 44, 49);
+
+    height: 3em;
+    font-size: x-small;
+   padding: 0;
+   margin-right: 0;
+    
+
+    
+    
+   
 }
+
+.white-text {
+
+    color: whitesmoke;
+
+    
+}
+
+.jumbotron {
+
+    background-color: rgb(229, 232, 235);
+}
+
