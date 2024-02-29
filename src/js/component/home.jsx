@@ -36,20 +36,31 @@ const Home = () => {
 				 </div>
 		         
 				 <div className="cardcontainer">
-				    
-					   <div className="card1">
-					      <Card/>{}
-                       </div>
-				    
-					   <div className="card2">
-					     <Card/>{}
-					   </div>
-				       
-					   <div className="card3">
-					     <Card/>{}
-					   </div>
+  <div className="row">
+    <div className="col-sm-12 col-md-3">
+      <div className="card1">
+        <Card/>
+      </div>
+    </div>
+    <div className="col-sm-12 col-md-3">
+      <div className="card2">
+        <Card/>
+      </div>
+    </div>
+    <div className="col-sm-12 col-md-3">
+      <div className="card3">
+        <Card/>
+      </div>
+    </div>
+    <div className="col-sm-12 col-md-3">
+      <div className="card4">
+        <Card/>
+      </div>
+    </div>
+  </div>
+</div>
 
-				 </div>
+
 		         
 				 <div className="footer">
 
