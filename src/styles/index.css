@@ -8,19 +8,19 @@ padding: 0;}
 
     background-color: rgb(39, 44, 49);
     padding: 0;
-    height: 4em;
-    font-size: xx-small;
+    height: 3em;
+    font-size:medium;
 }
 
 .navbar-brand{
-margin-left: 14em;
-margin-right: 41em;
+margin-left: 5em;
+margin-right: 37em;
 color: whitesmoke;
 }
 
 .custom-text {
 
-    font-size: small;
+    font-size: large;
 }
 
 .white-text {
@@ -34,37 +34,45 @@ color: whitesmoke;
 .jumbotron {
 
     background-color: rgb(229, 232, 235);
-    margin-left: 12em;
-    margin-right: 12em;
+    margin-top: 1.5em;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-top: 1em;
     
+}
+
+.custom-jumbotron{
+
+    max-height: 19em;
 }
 
 .custom-h1
 {
     text-align: left;
-    font-size:3em;
+    font-size:4em;
+    
 }
 
 .custom-p {
     
-    font-size:smaller; 
+    font-size:large; 
     width:auto; 
     margin-right: 0;
   }
 
 .custom-button{
-margin-bottom: 1em;
+margin-bottom: 4em;
 border-radius: 5%;
-font-size:x-small; 
-padding: 5px 14px; 
+font-size:large; 
+padding: 6px 16px; 
 margin-bottom: 5em;
 }
 
 .cardcontainer {
    
-    margin-top: 2em;
-    margin-left: 12em;
-    margin-right: 12em;
+    margin-top: 1.5em;
+    margin-left: 6em;
+    margin-right: 6em;
     margin-bottom: 2em;
     
     
@@ -77,10 +85,10 @@ margin-bottom: 5em;
 }
 
 .btn-container {
-    background-color: #f0f0f0; /* Gris claro */
-    padding: 20px; /* Espaciado alrededor del botón */
-    border-radius: 5px; /* Bordes redondeados */
-    margin: 0; /* Elimina el margen */
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 5px; 
+    margin: 0; 
     
 }
 
