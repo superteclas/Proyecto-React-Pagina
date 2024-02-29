@@ -8,7 +8,7 @@ const Card = () => {
         <h5 className="card-title">Card title</h5>
         <p className="card-text">Lorem insum dolor sit amet consectetur e olpisicingel Saniente asse necessitatibus Magio.</p>
         <div className="mt-auto btn-container">
-          <a href="#" className="btn btn-primary d-block mx-auto">Find More</a>
+        <a href="#" className="btn btn-primary btn-sm d-block mx-auto" style={{ fontSize: '0.6rem', padding: '0.2rem 0.4rem', maxWidth: '6rem' }}>Find out more!</a>
         </div>
       </div>
     </div>
