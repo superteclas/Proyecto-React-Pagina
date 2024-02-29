@@ -14,7 +14,7 @@ padding: 0;}
 
 .navbar-brand{
 margin-left: 5em;
-margin-right: 37em;
+margin-right: 25em;
 color: whitesmoke;
 }
 
@@ -73,10 +73,12 @@ margin-bottom: 5em;
     margin-top: 1.5em;
     margin-left: 6em;
     margin-right: 6em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     
     
 }
+
+
 
 .card-body {
     margin-top: 1em;
