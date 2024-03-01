@@ -4,9 +4,9 @@ import React from 'react';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-body-tertiary">
-      <div className="container-fluid">
+      <div className="container-fluid d-flex justify-content-between">
        
-        <a className="navbar-brand custom-text" href="#">Start Bootstrap</a>
+        <a className="navbar-brand custom-text ml-3" href="#">Start React!</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

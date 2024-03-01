@@ -19,8 +19,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-3">
                         <div className="card1">
-                       
-                            <Card titulo="Aleluya I" texto="Esta es la primera tarjeta y estoy muy contento" boton="Mágico"/>
+                       <Card titulo="Aleluya I" texto="Esta es la primera tarjeta y estoy muy contento" boton="Mágico"/>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3">
