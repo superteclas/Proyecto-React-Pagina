@@ -4,8 +4,7 @@
     padding: 0;
 }
 
-
-.navbar,.Footer{
+.navbar, .Footer {
     background-color: rgb(39, 44, 49);
     padding: 0;
     min-height: 3em; 
@@ -13,14 +12,13 @@
 }
 
 .navbar-brand {
-    margin-left: 4.5em;
     margin-right: 1em;
-    
     color: whitesmoke;
 }
 
 .navbar-nav {
-   margin-left: 47em;
+   
+   margin-left: auto; 
 }
 
 .navbar-toggler {
@@ -28,27 +26,13 @@
     margin-left: 5em;
 }
 
-.navbar-nav .show>.nav-link {
+.navbar-nav .show > .nav-link {
     color: #fff !important; 
-  }
-.custom-text {
-
-    font-size: large;
 }
-
-.white-text {
-
-    color: whitesmoke;
-
-}
-
-
 
 .jumbotron {
     background-color: rgb(229, 232, 235);
-    margin-top: 1.5em;
-    margin-left: 6em;
-    margin-right: 6em;
+    margin: 1.5em 6em; 
     padding: 0;
     overflow-x: auto;
 }
@@ -91,28 +75,32 @@
     }
 }
 
-
-  .custom-h1 {
+.custom-h1 {
     font-size: 2em; 
-  }
+}
 
-  .custom-p {
+.custom-p {
     font-size: medium; 
-  }
+}
 
+@media (max-width: 576px) {
+    .cardcontainer {
+        margin: 1em auto; /* Centra las cartas */
+        max-width: 100%; /* Hace las cartas más anchas */
+    }
 
-
-  .cardcontainer {
-    margin-top: 1.5em;
-    margin-left: 6em;
-    margin-right: 6em;
-    margin-bottom: 1.5em;
+    .card {
+        width: 100%; /* Ocupa el ancho completo del contenedor */
+        margin-bottom: 1em; /* Espaciado entre las cartas */
+    }
+}
+.cardcontainer {
+    margin: 1.5em; 
 }
 
 .card-body {
     margin-top: 1em;
     padding: 0;
-    
     font-size: smaller;
 }
 
@@ -123,28 +111,16 @@
     margin: 0;
 }
 
-
-@media (max-width: 576px) {
-    .cardcontainer {
-        margin-top: 1em; 
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-
-    .card {
-        width: 200%; 
-        margin-bottom: 1em; 
-        width: calc(100% - 2rem); 
-        margin: 0.1rem; 
-        
-    }
+.card {
+    width: calc(100% - 2rem); 
+    margin: 0.1rem; 
+    margin-bottom: 1em; 
 }
-
 
 .footer {
     color: whitesmoke;
     margin-left: 0;
-    margin-right:0;
+    margin-right: 0;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
