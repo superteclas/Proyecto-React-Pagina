@@ -20,7 +20,7 @@ const CardContainer = () => {
     <div className="d-flex flex-wrap justify-content-around">
      
       <Card />
-      {/* Agrega más tarjetas aquí según sea necesario */}
+      {}
     </div>
   );
 };
