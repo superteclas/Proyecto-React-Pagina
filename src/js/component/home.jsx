@@ -20,24 +20,24 @@ const Home = () => {
                     <div className="col-sm-12 col-md-3">
                         <div className="card1">
                        
-                            <Card titulo="ALELUYA I" texto="Esta es la primera tarjeta y estoy muy contento" boton="Mágico"/>
+                            <Card titulo="Aleluya I" texto="Esta es la primera tarjeta y estoy muy contento" boton="Mágico"/>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3">
                         <div className="card2">
-                        <Card titulo="ALELUYA II" texto="Esta es la segunda tarjeta y estoy very happy" boton="Maravilloso" />
+                        <Card titulo="Aleluya II" texto="Esta es la segunda tarjeta y estoy very happy" boton="Maravilloso" />
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3">
                         <div className="card3">
                      
-                        <Card titulo="ALELUYA III" texto="Esta es la tercera tarjeta y estoy muy cool " boton="Sorprendente"/>  
+                        <Card titulo="Aleluya III" texto="Esta es la tercera tarjeta y estoy muy cool " boton="Sorprendente"/>  
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3">
                         <div className="card4">
                        
-                        <Card titulo="ALELUYA IV" texto="Esta es la cuarta tarjeta y estoy molo mucho" boton="Viva la vida" />
+                        <Card titulo="Aleluya IV" texto="Esta es la cuarta tarjeta y estoy molo mucho" boton="Viva la vida" />
                     </div>
                 </div>
             </div>
