@@ -83,19 +83,10 @@
     font-size: medium; 
 }
 
-@media (max-width: 576px) {
-    .cardcontainer {
-        margin: 1em auto; /* Centra las cartas */
-        max-width: 100%; /* Hace las cartas más anchas */
-    }
-
-    .card {
-        width: 100%; /* Ocupa el ancho completo del contenedor */
-        margin-bottom: 1em; /* Espaciado entre las cartas */
-    }
-}
-.cardcontainer {
-    margin: 1.5em; 
+.card {
+    width: calc(100% - 2rem); 
+    margin: 0.1rem; 
+    margin-bottom: 1em; 
 }
 
 .card-body {
@@ -111,11 +102,7 @@
     margin: 0;
 }
 
-.card {
-    width: calc(100% - 2rem); 
-    margin: 0.1rem; 
-    margin-bottom: 1em; 
-}
+
 
 .footer {
     color: whitesmoke;
