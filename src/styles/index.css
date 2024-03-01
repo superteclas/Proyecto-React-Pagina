@@ -5,7 +5,7 @@
 }
 
 
-.navbar,.Footer {
+.navbar,.Footer{
     background-color: rgb(39, 44, 49);
     padding: 0;
     min-height: 3em; 
@@ -25,8 +25,12 @@
 
 .navbar-toggler {
     border-color: whitesmoke; 
+    margin-left: 5em;
 }
 
+.navbar-nav .show>.nav-link {
+    color: #fff !important; 
+  }
 .custom-text {
 
     font-size: large;
@@ -108,6 +112,7 @@
 .card-body {
     margin-top: 1em;
     padding: 0;
+    
     font-size: smaller;
 }
 
@@ -122,17 +127,25 @@
 @media (max-width: 576px) {
     .cardcontainer {
         margin-top: 1em; 
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
     .card {
         width: 200%; 
         margin-bottom: 1em; 
+        width: calc(100% - 2rem); 
+        margin: 0.1rem; 
         
     }
 }
 
-.Footer{
 
+.footer {
     color: whitesmoke;
-    
+    margin-left: 0;
+    margin-right:0;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
