@@ -16,22 +16,28 @@
 
 
 .navbar-brand {
-    margin-right: 1em;
+
+    margin-right: 3em;
     color: whitesmoke;
 }
 
 .navbar-nav {
    
-   margin-left: auto; 
+   margin-left: 3em; 
+}
+
+.custom-text{
+    margin-left: 5.5em;
 }
 
 .navbar-toggler {
     border-color: whitesmoke; 
-    margin-left: 5em;
+    margin-left: 1em;
 }
 
 .navbar-nav .show > .nav-link {
     color: #fff !important; 
+    
 }
 
 .jumbotron {
